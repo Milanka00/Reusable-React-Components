@@ -1,0 +1,24 @@
+.card-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    border-radius: 0;
+}
+
+.card-img-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    color:#fff;
+    text-align: center;
+    margin: 1rem;
+}
+
+
